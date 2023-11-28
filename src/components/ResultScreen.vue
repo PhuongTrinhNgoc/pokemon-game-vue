@@ -1,7 +1,7 @@
 <template>
   <div class="screen">
     <h1>✨ Congratulations ✨</h1>
-    <h3>{{ displayTime }} seconds</h3>
+    <h3>{{ displayTime }}</h3>
     <button @click="onStartAgain">start again</button>
   </div>
 </template>
